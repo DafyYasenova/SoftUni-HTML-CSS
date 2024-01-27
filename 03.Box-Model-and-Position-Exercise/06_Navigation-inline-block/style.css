@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    padding: 2em;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+header p,
+header nav {
+    display: inline-block;
+}
+
+header p a {
+    color: #000;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+nav ul {
+    padding-right: 4em;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 0.5em;
+}
+
+nav li a {
+    color: #099d0e;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
