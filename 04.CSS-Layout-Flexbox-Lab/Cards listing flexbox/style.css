@@ -46,8 +46,21 @@ img {
     border: 1px solid #ccc;
     color: rgb(83, 6, 83);
     text-decoration: none;
-}
 
+position: relative;
+}
+/* Bestseller*/
+.card .type {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: antiquewhite;
+    font-size: 0.8em;
+    padding: 0.4em;
+    border-radius: 8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 
 .card .media {
     margin-bottom: 0.1em;
@@ -79,3 +92,4 @@ img {
 .card:hover .span-btn {
     text-decoration: underline;
 }
+
