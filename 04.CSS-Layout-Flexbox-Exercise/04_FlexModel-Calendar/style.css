@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 2em;
+    font-family: "Helvetica", sans-serif;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+}
+
+span {
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    flex-grow: 1;
+    padding-bottom: 2em;
+}
+
+.notes {
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+section.week span:nth-child(1),
+section.week span:nth-child(7) {
+    flex-basis: 100%;
+
+}
