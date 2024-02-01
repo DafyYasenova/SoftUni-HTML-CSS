@@ -77,3 +77,8 @@ footer p {
     font-weight: bold;
 }
 
+
+.masonry {
+    align-items: flex-start;
+}
+
