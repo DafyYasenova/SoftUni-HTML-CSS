@@ -9,3 +9,43 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+   
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+
+.site-title {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0;
+   
+}
+
+
+.site-footer {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #3498db;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+.site-footer p {
+    padding: 0;
+    color: #fff;
+    
+}
