@@ -8,19 +8,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 1em;
-    gap: 0.5em;
+    gap:0.5em;
 
 }
 
-body>* {
+body > * {
     background-color: #b5d8ff;
     border-radius: 0.3em;
     padding: 1em;
 
 }
 
-header,
-footer {
+header, footer {
     flex: 1 1 100%;
 }
 
@@ -32,32 +31,29 @@ nav li {
     list-style: none;
     padding: 3px;
 }
-
 nav li a {
     text-decoration: none;
     color: #78519a;
 }
-
 aside {
     flex: 1 1 70%;
-
+    
 }
 
 aside h2 {
     padding-bottom: 0.5em;
 }
 
-aside ul li {
+aside ul li{
     padding-left: 1em;
-    list-style: inside;
+    list-style:inside;
 }
 
 footer {
     padding: 0.5em;
 }
-
-@media (max-width: 500px) {
-    body {
+@media (max-width: 500px){
+    body{
         flex-direction: column;
     }
 }
