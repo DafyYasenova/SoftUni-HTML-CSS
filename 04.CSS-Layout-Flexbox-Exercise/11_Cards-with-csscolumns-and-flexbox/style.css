@@ -82,3 +82,16 @@ footer p {
     align-items: flex-start;
 }
 
+/* .collection {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+} */
+/* [class*="masonry"]  > .card{
+    display: flex;
+    
+    flex-direction:column;
+    background-color: red;
+    align-items: flex-start;
+    gap: 2em;
+} */
