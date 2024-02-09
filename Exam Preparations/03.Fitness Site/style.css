@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif");
+
 /* reset */
 * {
     padding: 0;
@@ -10,9 +12,19 @@ img {
     width: 100%;
     height: auto;
 }
+
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-image: url(image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -20px;
+
+}
+
 /* typography */
 html {
-    font: 12px/1.5 'Verdana', serif;
+    font: 12px/1.5 'PT Sans', sans-serif;
 }
 
 .container {
@@ -42,21 +54,22 @@ html {
     display: block;
 }
 
-.section-site-bar .social li{
+.section-site-bar .social li {
     padding: 0 0.5em;
 }
+
 .section-site-bar .social a {
     color: #fff;
 }
 
-.section-site-bar .social a span{
+.section-site-bar .social a span {
     display: none;
 }
 
 
 /* site header */
-.section-site-header{
-    background-color: black;
+.section-site-header {
+    /* background-color: black; */
     color: #fff;
 }
 
@@ -74,6 +87,7 @@ html {
 .main-nav ul {
     display: flex;
 }
+
 .main-nav li,
 .main-nav a {
     display: block;
@@ -86,7 +100,7 @@ html {
 
 /* hero section */
 .section-hero {
-    background-color: black;
+    /* background-color: black; */
     color: #fff;
 }
 
@@ -98,8 +112,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 4em 2em;
     font-size: 1.2em;
+    height: 30em;
+  
 }
 
 .section-hero .container {
@@ -108,16 +125,14 @@ html {
 }
 
 /* equals sections */
-.section-equals {
+.section-equals {}
 
-
-}
-
-.section-equals .container{
-padding: 2em;
+.section-equals .container {
+    padding: 2em;
 
 }
-.section-equals .section-header{
+
+.section-equals .section-header {
     text-align: center;
 }
 
@@ -131,15 +146,38 @@ padding: 2em;
 .section-equals .section-content article {
     flex: 1 1 30%;
 }
+
 /* first section */
+.section-first {
+    background-color: #fff;
+}
+
+.section-first img {
+    width: 16%;
+    margin: 0 auto;
+}
+
+.section-first h4 {
+    color: #D01919;
+}
 
 /* second section*/
 .section-second {
     background-color: #EFEFEF;
 }
 
+.section-second h5 {
+    color: #D01919;
+}
 
-/*  footer*/
+
+/* footer */
 .section-site-footer {
     background-color: #D01919;
+    color: #000;
+}
+
+.section-site-footer p {
+    text-align: center;
+    padding: 1em 0;
 }
