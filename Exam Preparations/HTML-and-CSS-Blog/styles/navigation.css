@@ -1,10 +1,12 @@
 .site-nav {
     display: flex;
+    align-items: center;
 }
 
 .site-nav ul {
     display: flex;
     padding: 0;
+    margin-right: 1em;
 }
 
 .site-nav li,
@@ -12,7 +14,7 @@
     display: block;
 }
 
-.site-nav a {
+.site-nav ul a {
     display: block;
     padding: 0.5em;
     color: #000;
