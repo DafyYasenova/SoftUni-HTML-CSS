@@ -1,0 +1,26 @@
+.site-nav {
+    display: flex;
+}
+
+.site-nav ul {
+    display: flex;
+    padding: 0;
+}
+
+.site-nav li,
+.site-nav a {
+    display: block;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.5em;
+    color: #000;
+    text-decoration: none;
+    border: solid #fff;
+    border-width: 1px 0;
+}
+
+.site-nav a:hover {
+    border-bottom: 1px solid #000;
+}
