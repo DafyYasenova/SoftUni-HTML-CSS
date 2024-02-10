@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 "Helvetica", sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    border: 3px solid #000;
+    border-radius: 0.6em;
+    background-color: #1881B6;
+    padding: 2.6em;
+    gap: 1em;
+}
+
+
+.sub-title {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    padding: 1.5em 0;
+}
+
+.container .title {
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+}
+
+.content .description {
+    text-indent: 2.8em;
+    line-height: 2;
+}
+
+.button-section {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.4em 1.2em;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.button.contact {
+    background-color: #B6416D;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button.learn-more {
+    color: #000;
+    font-weight: bold;
+}
