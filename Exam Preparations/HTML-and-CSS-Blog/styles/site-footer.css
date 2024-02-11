@@ -4,12 +4,12 @@
 }
 
 .site-footer .section-container {
-    padding: 4em 0;
+    padding: 4em 1em;
 }
 
 .site-footer .columns {
-    display: flex;
-    gap: 4em;
+    /* display: flex;
+    gap: 4em; */
     padding-bottom: 6em;
 }
 
@@ -20,12 +20,16 @@
 
 .site-footer .columns .newsletter form {
     display: flex;
-    flex-wrap: wrap;
+padding-bottom: 0.5em;
     padding-top: 1em;
 }
 
 .site-footer .columns .newsletter input {
-    flex-grow: 1;
+    flex: 1 1 60%;
+}
+
+.site-footer .columns .newsletter button {
+    flex: 0 1 40%;
 }
 
 .site-footer .columns .newsletter input,
@@ -65,19 +69,27 @@
     color: #fff;
 }
 
+.site-footer .columns .panel a i {
+    color: #fff;
+    display: inline-block;
+    margin-right: 0.5em;
+
+}
+
 .site-footer .info {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding-top: 2em;
     border-top: 1px solid #fff;
 }
 
 .site-footer .info ul {
     display: flex;
+    padding: 0;
 }
 
-.site-footer .info li {
-    padding: 0 0.5em;
+.site-footer .info li:not(:last-child) {
+    padding: 0 1em 0 0;
 }
 
 .site-footer .info li,
@@ -96,4 +108,16 @@
     color: #fff;
     border-bottom-color: #fff;
 
+}
+
+@media (min-width: 600px) {
+    .site-footer .columns {
+        display: flex;
+        gap: 4em;
+    }
+
+    .site-footer .info {
+        display: flex;
+        justify-content: space-between;
+    }
 }
