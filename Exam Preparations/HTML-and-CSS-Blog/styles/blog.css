@@ -71,3 +71,40 @@
     padding-top: 1em;
 }
 
+/* newsletter */
+.section-sign-up-newsletter.section {
+    background-image: url(https://media.istockphoto.com/id/1267160982/photo/web-banner-relax-in-nature-from-tropical-forest-with-sunlight-in-spring-season.jpg?s=2048x2048&w=is&k=20&c=tu67qnb_kZB41qyIOvaE6M4ly7c6eXh7vHLmVQVd6vQ=);
+    padding: 5em 1em 5em 1em;
+
+}
+
+.section-sign-up-newsletter .section-container {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+}
+
+
+.section-sign-up-newsletter .section-container .newsletter {
+
+    margin-left: 2em;
+}
+
+.section-sign-up-newsletter .section-container form {
+    display: flex;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+@media (max-width: 600px) {
+    .section-sign-up-newsletter .section-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-sign-up-newsletter .section-container .newsletter {
+
+        margin: 0;
+    }
+}
