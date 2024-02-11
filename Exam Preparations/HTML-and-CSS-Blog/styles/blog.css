@@ -74,7 +74,7 @@
 /* newsletter */
 .section-sign-up-newsletter.section {
     background-image: url(https://media.istockphoto.com/id/1267160982/photo/web-banner-relax-in-nature-from-tropical-forest-with-sunlight-in-spring-season.jpg?s=2048x2048&w=is&k=20&c=tu67qnb_kZB41qyIOvaE6M4ly7c6eXh7vHLmVQVd6vQ=);
-    padding: 5em 1em 5em 1em;
+    padding: 4em 2em;
 
 }
 
@@ -101,10 +101,11 @@
     .section-sign-up-newsletter .section-container {
         display: flex;
         flex-direction: column;
+        gap:0;
+        padding-left: 2em;
     }
 
     .section-sign-up-newsletter .section-container .newsletter {
-
         margin: 0;
     }
 }
