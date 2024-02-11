@@ -1,3 +1,26 @@
 .section-blog .section-container {
-    padding: 1em;
+    padding: 4em 1em;
+}
+
+.section-blog .entries-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+}
+
+.section-blog .entries-list article {
+    flex: 1 1 calc(50% - 1em);
+}
+.section-blog .section-header h2{
+    margin: 0;
+    padding: 0 0 0.5em 0;
+    font-weight: 600;
+    max-width: 25ch;
+    
+}
+
+.section-blog .list-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 2em;
 }
