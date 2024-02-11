@@ -5,18 +5,19 @@
 .section-blog .entries-list {
     display: flex;
     flex-wrap: wrap;
-    gap:2em;
+    gap: 2em;
 }
 
 .section-blog .entries-list article {
     flex: 1 1 calc(50% - 1em);
 }
-.section-blog .section-header h2{
+
+.section-blog .section-header h2 {
     margin: 0;
     padding: 0 0 0.5em 0;
     font-weight: 600;
     max-width: 25ch;
-    
+
 }
 
 .section-blog .list-header {
@@ -24,3 +25,49 @@
     font-weight: bold;
     padding-bottom: 2em;
 }
+
+/* popular */
+.section-blog.popular .section-header {
+    position: relative;
+}
+
+.section-blog.popular .section-header a.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-blog.popular .section-header h4 {
+    padding-bottom: 0;
+}
+
+.section-blog.popular .entries-list {
+    padding-top: 2em;
+    justify-content: space-between;
+}
+
+.section-blog.popular .entries-list article {
+    flex: 0 1 30%;
+}
+
+.section-blog.popular .entry {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section-blog.popular .entry .media {
+    aspect-ratio: initial;
+    max-height: initial;
+
+}
+
+.section-blog.popular .entry .media img {
+    width: 100%;
+    height: auto;
+}
+
+.section-blog.popular .entry-content {
+    padding-left: 0;
+    padding-top: 1em;
+}
+
