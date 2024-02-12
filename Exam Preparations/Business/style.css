@@ -163,6 +163,7 @@ p {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    padding-bottom: 6.6em;
 }
 
 .section-features h3 {
@@ -172,14 +173,16 @@ p {
     padding-bottom: 0.6em;
     color: #b0825c;
 }
+
 .section-features .sponsors p {
-  margin: 0 auto;
+    margin: 0 auto;
     line-height: 1.6;
-   color: #716567;
+    color: #716567;
     max-width: 135ch;
     padding-bottom: 3em;
 
 }
+
 .media {
     display: flex;
     flex-direction: row;
@@ -188,8 +191,9 @@ p {
     overflow: hidden;
     align-items: center;
     justify-content: space-evenly;
-    gap:2em;
+    gap: 2em;
 }
+
 /* .media .image {
     display: inline-block;
     flex-direction: row;
@@ -211,4 +215,43 @@ p {
 
 .footer {
     background-color: #171720;
+    padding-top: 5.5em;
+    padding-left: 1em;
+    
+}
+
+.footer h6 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    padding-bottom: 6em;
+}
+
+.footer-columns li {
+    list-style: none;
+}
+
+.footer-columns ul li a {
+    color: #B3A68A;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 3;
+
+
+}
+
+.section-footer .copyright {
+    border-top: 1px solid #3A3A41;
+}
+
+.section-footer .copyright p {
+    padding: 1.5em 0 1em 0;
+    color: #B3A68A;
 }
