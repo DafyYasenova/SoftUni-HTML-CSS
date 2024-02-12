@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* typography */
+html {
+    font: 12px/1.5 'PT Serif', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-image: url(images/background.jpg);
+ background-repeat: no-repeat;
+ background-size:cover;
+    background-position: center ;
+}
+
+/* site header */
+.section-site-header {
+ 
+    color: #fff;
+}
+* + p {
+    font-family: 'PT Sans', sans-serif;;
+}
+.section-site-header .container {
+   
+    display: flex;
+    justify-content: space-between;
+    max-width: initial;
+
+    padding: 1em 3em;
+}
+.logo {
+    display: inline-block;
+}
+.logo img{
+    width: 6em;
+    height: auto;
+}
+.section-site-header a {
+    color: #fff;
+    /* color: #000; */
+}
+
+/* main nav */
+.main-nav ul {
+    display: flex;
+
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav a {
+   
+    text-transform: uppercase;
+    padding: 0.5em 2em ;
+    text-decoration: none;
+}
+
+
+
