@@ -16,7 +16,7 @@ img {
 
 /* typography */
 html {
-    font: 12px/1.5 'PT Serif', serif;
+    font: 14px/1.5 'PT Serif', serif;
 }
 
 .container {
@@ -123,9 +123,9 @@ p {
 }
 
 .section-content .container {
-    padding: 6em 1em;
+    padding: 6em 2em;
     display: flex;
-    gap: 3em;
+    gap: 5em;
 }
 
 .section-content .content h3 {
@@ -185,32 +185,24 @@ p {
 
 .media {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* margin-bottom: 1em; */
+   
     overflow: hidden;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 2em;
+    justify-content: center;
+    gap: 4em;
+    padding-bottom: 2em;
 }
 
-/* .media .image {
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
-    overflow: hidden;
-    align-items: center;
-    justify-content: space-evenly;
-  
-} */
-.media img {
-
-    padding: 3%;
-    border-radius: 50%;
-    width: 14%;
-    margin: 0 auto;
+.media .container-image {
     background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15%;
+    gap: 3em;
+}
+.media img {
+    padding: 1.5em;
+   
 }
 
 .footer {
@@ -243,7 +235,7 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     line-height: 3;
-
+font-family:  'PT Sans', sans-serif;
 
 }
 
