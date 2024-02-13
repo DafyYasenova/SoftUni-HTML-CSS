@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* typography */
+html {
+    font: 14px/1.5 Ubunto, sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* site header */
+
+.section-site-header .container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-width: initial;
+    padding: 1em 3em;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.site-title {
+    color: #313131;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-right: 1em;
+    border-right: 1.2px solid #69696E;
+}
+
+.span-title {
+    font-size: 0.6em;
+    font-weight: bold;
+    color: #69696E;
+    padding-left: 2em;
+    display: inline-block;
+    align-self: flex-end;
+    letter-spacing: 1.4px;
+}
+
+
+.section-site-header a {
+    background-color: #ECECEC;
+    color: #69696E;
+
+}
+
+.section-site-header a:hover {
+    background-color: #56DBB1;
+    color: #0B0000;
+}
+
+/* main nav */
+.main-nav ul {
+    display: flex;
+    gap: 0.1em
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav a {
+
+    text-transform: uppercase;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    min-height: 400px;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+
+}
+
+.content {
+    padding: 3em 8em;
+    background-color: #56DBB1;
+    color: #0B0000;
+    font-weight: bold;
+    text-align: center;
+}
