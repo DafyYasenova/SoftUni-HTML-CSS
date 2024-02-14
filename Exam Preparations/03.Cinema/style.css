@@ -30,7 +30,7 @@ html {
     display: flex;
     justify-content: space-between;
     max-width: initial;
-    padding: 1em 3em;
+    padding: 1em 3em 2em;
     align-items: center;
 }
 
@@ -41,17 +41,17 @@ html {
 
 .site-title {
     color: #313131;
-    font-size: 1.8em;
+    font-size: 2.6em;
     font-weight: bold;
-    padding-right: 1em;
-    border-right: 1.2px solid #69696E;
+    padding-right: 0.6em;
+    border-right: 1.6px solid #ECECEC;
 }
 
 .span-title {
     font-size: 0.6em;
     font-weight: bold;
     color: #69696E;
-    padding-left: 2em;
+    padding-left: 2.6em;
     display: inline-block;
     align-self: flex-end;
     letter-spacing: 1.4px;
@@ -61,6 +61,9 @@ html {
 .section-site-header a {
     background-color: #ECECEC;
     color: #69696E;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 0.8px;
 
 }
 
@@ -93,11 +96,11 @@ html {
 }
 
 .banner {
-    min-height: 400px;
+    min-height: 570px;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 0;
+    background-position: center -6;
 
 }
 
@@ -144,22 +147,21 @@ html {
 
 .maecenas p {
     padding: 1em 0;
-    border-top: 1px solid #9A9A9A;
+    border-top: 2px solid #9A9A9A;
     color: #5B5956;
 }
 
 .features .media {
-    align-items: center;
+    /* align-items: center;
     width: 110px;
-    height: 110px;
+    height: 110px; */
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.7em 0.95em;
     background-color: #56DBB1;
 }
 
-.media i {
-    width: 100px;
-    height: 100px;
 
-}
 
 .section-action {
     background-color: #fff;
@@ -167,7 +169,7 @@ html {
     padding: 6.8em;
 }
 
-.section-action h2{
+.section-action h2 {
     font-size: 2.6em;
     color: #5f5f5f;
 
@@ -185,6 +187,7 @@ html {
     background-color: #974D1B;
     color: #fff;
     padding: 0.8em 1.6em;
+    letter-spacing: 0.1em;
 }
 
 
@@ -207,10 +210,10 @@ html {
 
 .footer p {
     text-align: center;
-    padding: 5.2em 0;
+    padding: 3.2em 0;
     color: #56DBB1;
 }
 
 .footer p span {
-    color:#DBFAF0;
+    color: #DBFAF0;
 }
