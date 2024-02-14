@@ -24,7 +24,7 @@ html {
     margin: 0 auto;
 }
 
-body {
+.banner {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
