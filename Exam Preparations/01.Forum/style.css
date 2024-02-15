@@ -5,8 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
-    font: 24px/1.5 "Inter", sans-serif;
+    font: 24px/1.3 "Inter", sans-serif;
 }
 
 img {
@@ -27,12 +28,91 @@ body {
     margin: 2.4em auto;
 }
 
-.forum{
+.forum {
     display: flex;
     gap: 1.45em;
+
 }
 
 .post-item {
-    flex-direction: column;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
 
+}
+
+.left {
+    flex: 0 0 66%;
+
+    display: flex;
+    gap: 1.45em;
+    flex-direction: column;
+}
+
+.right {
+    align-items: stretch;
+    flex: 0 0 32%;
+}
+
+.left .post-item {
+    padding: 3.2em 2.16em 2.5em 2.16em;
+}
+
+.media img {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.left .media img {
+    overflow: hidden;
+    /* width: 100%; */
+    width: 10.4em;
+
+
+}
+
+.right .media img {
+    width: 5em;
+
+}
+
+.quote {
+    font-size: 2.9em;
+}
+
+.post-author {
+    padding-top: 1em;
+    font-size: 1.4em;
+}
+
+.right .post-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.right .quote {
+    font-size: 4.8em;
+    padding-bottom: 0.5em;
+}
+
+.right .post-item {
+    padding: 2.4em 1em 2.5em 2em;
+}
+
+.rigth-author-desc {
+    border-top: 2px solid #ccc;
+    padding-top: 0.5em;
+    display: flex;
+    gap: 1.5em;
+}
+
+p {
+    color: #6E706E;
+}
+
+.rigth-author-desc .desc {
+    font-size: 0.8em;
+    color: #595959;
+    font-weight: 600;
 }
