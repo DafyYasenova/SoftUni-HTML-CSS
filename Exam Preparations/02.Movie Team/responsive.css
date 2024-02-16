@@ -1,0 +1,146 @@
+@media (max-width: 600px) {
+
+    header {
+        padding: 1em 0;
+    }
+
+    header nav {
+        justify-content: center;
+        padding-top: 1em;
+
+    }
+
+    header nav ul li {
+        display: block;
+        text-align: center;
+        padding: 0.2em 0;
+    }
+
+    .header-title {
+        padding: 1em 0;
+    }
+
+    .header-title h1 {
+        font-size: 32px;
+    }
+
+    .header-title p {
+        font-size: 16px;
+    }
+
+
+    .header-title button {
+        margin-top: 1em;
+    }
+
+    .header-title button {
+        padding: 0.5em 0.7em;
+        font-size: 14px;
+    }
+
+
+    .team-description-wrapper {
+        padding: 1.8rem 0;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .team-description p:nth-child(2) {
+        padding-bottom: 2rem;
+    }
+
+    .team-description-wrapper ul {
+        flex-wrap: wrap;
+        row-gap: 2.5em;
+
+    }
+
+    .team-description ul li {
+        width: 50%;
+    }
+
+    .team-description ul li p {
+        font-size: 10px;
+    }
+
+    .team-description ul li img {
+        width: 150px;
+        height: 150px;
+        padding-bottom: 0;
+    }
+
+    .team-description-wrapper {
+        padding: 3em 0;
+    }
+
+    .about-us h3 {
+        font-size: 16px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+    }
+
+
+    .about-us p:nth-child(3) {
+        width: 91%;
+    }
+
+    .choose-us {
+        padding: 2em 0;
+    }
+
+    .choose-us ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choose-us h3 {
+        font-size: 18px;
+    }
+
+    .choose-us li img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .choose-us li {
+        width: 60%;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .choose-us li p {
+        font-size: 14px;
+    }
+
+    .blog-news ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1.6em;
+        align-items: center;
+    }
+
+    .blog-news ul li {
+        width: 70%;
+    }
+
+    .blog-news p {
+        font-size: 14px;
+    }
+
+    .blog-news ul .item .avatar {
+        height: auto;
+    }
+
+    .blog-news ul .item .avatar img {
+        height: 100%;
+    }
+
+    .blog-news .content {
+        padding: 2em 1em;
+    }
+}
