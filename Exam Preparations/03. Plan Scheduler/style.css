@@ -120,14 +120,14 @@ html {
     display: flex;
     padding: 4em 0 3em 0;
     justify-content: center;
-    gap:1.6em;
+    gap: 1.6em;
 }
 
 .statistic-items .item {
- text-align: center;
+    text-align: center;
 }
 
-.statistic-items .item h2{
+.statistic-items .item h2 {
 
     color: #FF7C4C;
     font-weight: 800;
@@ -139,6 +139,7 @@ html {
     font-weight: 500;
     font-size: 1.2em;
 }
+
 .statistic-items .item p {
     padding-top: 0.4em;
     font-size: 0.8em;
@@ -147,4 +148,49 @@ html {
 
 .section-main-content {
     background-color: #D9D9D9;
+
+}
+
+.section-main-content .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 3em 0;
+}
+
+.section-main-content .content-list {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.section-main-content .media {
+    flex: 1 0 37%;
+}
+
+.section-main-content .content-list h4 {
+    color: #595959;
+    letter-spacing: 1.2px;
+    padding: 1.8em 0;
+}
+
+.section-main-content .content-list h2 {
+    padding-bottom: 1em;
+    font-size: 2.2em;
+}
+
+.section-main-content .content-list .action {
+    padding: 1em 0 2em 0;
+}
+
+.section-main-content .content-list .button {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.section-main-content .content-list .author {
+    color: #595959;
+    padding-bottom: 2em;
 }
