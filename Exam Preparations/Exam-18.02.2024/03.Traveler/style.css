@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 18px/1.5 'Karla', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Infant";
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.section-site-header,
+.section-hero {
+    position: relative;
+    z-index: 2;
+}
+
+
+.section-site-header {
+    color: #fff;
+}
+
+.section-site-header .container {
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    padding: 1em 3em;
+
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 6em;
+    height: auto;
+
+}
+
+.section-site-header a {
+    color: #fff;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav a {
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+}
+
+
+.section-hero {
+    color: #fff;
+    padding: 10em 0 3em 0;
+}
+
+.section-hero h2 {
+    padding-top: 1em;
+    font-weight: bold;
+    padding-bottom: 1.2em;
+    font-size: 90px;
+}
+
+.section-hero p {
+    max-width: 55ch;
+    text-align: center;
+}
+
+
+.section-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6em;
+    font-size: 1.4em;
+}
+
+.section-content {
+    background-color: #F8F0E9;
+}
+
+.section-content .container {
+    padding: 3em 0 7em 0;
+}
+
+.section-content h3 {
+    padding-top: 1em;
+    font-size: 72px;
+    font-style: italic;
+    line-height: 0.8;
+    color: #352B2A;
+}
+
+.section-support {
+    background-color: #E14747;
+}
+
+.section-support .container {
+    color: #fff;
+    padding: 4em 20em;
+    text-align: center;
+}
+
+.section-support .support-title {
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+}
+
+.section-content {
+    background-color: #F8F0E9;
+}
+
+.section-content .container-content {
+    max-width: 35em;
+    padding: 4em 0;
+    margin: 0 auto;
+}
+
+.section-content .container-content h3 {
+    font-style: normal;
+    font-size: 70px;
+    line-height: 1;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.section-content .container-content p {
+    /* max-width: 47ch; */
+    text-align: start;
+    padding-bottom: 1em;
+}
+
+.section-content .buttons {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 16px;
+}
+
+.section-content .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0.6em 1.4em;
+    color: #000;
+}
+
+
+.section-content .button.read-more {
+    align-self: flex-start;
+}
+
+.section-content .button.read-all {
+    align-self: center;
+}
+
+.section-find {
+    background-color: #E14747;
+}
+
+.section-find .container {
+    padding: 5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+.section-find .container h2 {
+    font-style: normal;
+    font-size: 70px;
+    line-height: 1;
+    padding-bottom: 1.5em;
+}
+
+.section-find .container p {
+    padding-bottom: 5em;
+}
+
+.section-find .container .button {
+
+    background-color: #FAD87A;
+font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    padding: 1em 1.8em;
+}
+
+.section-find .container a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #352B2A;
+    padding: 4em 0 4em 6em;
+}
+
+footer p {
+    padding: 1em 0;
+}
+
+footer p:first-of-type {
+    color: #fff;
+    max-width: 48ch;
+}
+
+footer .copyright {
+    color: #8a8b8c;
+    font-size: 16px;
+}
